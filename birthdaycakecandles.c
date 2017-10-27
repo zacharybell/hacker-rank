@@ -29,5 +29,7 @@ int main() {
 	int result = num_candles(arr, n);
 	printf("%d\n", result);
 
+	free(arr);
+	
 	return 0;
 }
